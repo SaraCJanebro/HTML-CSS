@@ -2,11 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&family=Water+Brush&display=swap');
 
 :root{
-    --fonte01:Verdana;
+    --fonte01:Verdana, Geneva, Tahoma, sans-serif;
     --fonte02:"Passion One,cursive";
     --fonte03:"Sriracha,cursive";
+    --fonte04:"Water Brush,cursive";
 }
 
 *{
@@ -18,6 +20,7 @@
 html, body{
     min-height: 100vh;
     background-color: darkgrey;
+    font-family: var(--fonte01);
 }
 
 header{
@@ -52,7 +55,7 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
-    font-family: var(--fonte03);
+    font-family: var(--fonte04);
     font-size: 3.5vh;
 }
 
