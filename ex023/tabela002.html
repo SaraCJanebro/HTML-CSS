@@ -15,6 +15,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position:relative;
         }
 
         caption{
@@ -34,8 +35,18 @@
             color:white;
         } 
 
+        thead>tr>th{
+            position:sticky;
+            top:0;
+            background-color: #383838;
+        }
+
         td.num{
             text-align: right;
+        }
+
+        tbody>tr:nth-child(2n) {
+            background-color: lightgray;
         }
     </style>
 
@@ -72,7 +83,7 @@
              <tr>
 
             <th scope="col">Estado</th>
-            <th scope="col" style="width:50px;">População</th>
+            <th scope="col" style="width:100px;">População</th>
 
              </tr>
         </thead>
